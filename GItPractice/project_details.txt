@@ -1,2 +1,3 @@
 This is the sample project details
 Feature 1 : Adding text to this placeholder
+changes made after comments from First PR add-new-feature
