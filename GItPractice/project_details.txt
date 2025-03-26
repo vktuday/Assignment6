@@ -1,0 +1,2 @@
+This is the sample project details
+Feature 1 : Adding text to this placeholder
