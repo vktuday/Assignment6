@@ -1,0 +1,20 @@
+name: Release Automation
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Build
+        run: echo "Build process simulated."
+      - name: Publish Release Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-artifact
+          path: ./compiled_file
